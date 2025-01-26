@@ -1,0 +1,50 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 20px;
+}
+
+form{
+background-color: rgb(203, 153, 233);
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 25px;
+width: 450px;
+margin: 0 auto;
+
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  h2{
+text-align: center;
+color: #000000;
+  }
+  form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+ 
